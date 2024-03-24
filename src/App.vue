@@ -7,7 +7,8 @@
 // const isDark = useDark();
 
 // import Flexbox from './components/Flexbox.vue'
-import Grid from './components/Grid.vue'
+// import Grid from './components/Grid.vue'
+import Responsive from './components/Responsive.vue'
 </script>
 <template>
   <div class="m-10">
@@ -28,6 +29,7 @@ import Grid from './components/Grid.vue'
       <li>Solid</li>
     </ul> -->
     <!-- <Flexbox /> -->
-    <Grid />
+    <!-- <Grid /> -->
+    <Responsive />
   </div>
 </template>
