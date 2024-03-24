@@ -8,7 +8,9 @@
 
 // import Flexbox from './components/Flexbox.vue'
 // import Grid from './components/Grid.vue'
-import Responsive from './components/Responsive.vue'
+// import Responsive from './components/Responsive.vue'
+// import ColorPallete from './components/ColorPallete.vue'
+import Fonts from './components/Fonts.vue'
 </script>
 <template>
   <div class="m-10">
@@ -30,6 +32,8 @@ import Responsive from './components/Responsive.vue'
     </ul> -->
     <!-- <Flexbox /> -->
     <!-- <Grid /> -->
-    <Responsive />
+    <!-- <Responsive /> -->
+    <!-- <ColorPallete /> -->
+    <Fonts />
   </div>
 </template>
