@@ -15,13 +15,18 @@ const _modelValue = computed({
 });
 </script>
 <template>
-  <label class="block mb-3">
-    <span v-if="label" class="block text-2xl text-gray-800">{{ label }}</span>
+  <label class="mb-3 block">
+    <span
+      v-if="label"
+      class="block text-2xl text-gray-800 after:text-red-600 after:content-['*']"
+      >{{ label }}</span
+    >
     <input
       v-model="_modelValue"
+      placeholder="alanmaldonado"
       type="text"
       required="true"
-      class="block w-full p-3 border border-gray-400 rounded-lg focus:outline-lime-600 disabled:opacity-50 invalid:border-red-600"
+      class="block w-full rounded-lg border border-gray-400 p-3 placeholder:text-sm placeholder:italic focus:outline-lime-600 disabled:opacity-50"
     />
   </label>
 </template>
