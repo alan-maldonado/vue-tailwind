@@ -10,7 +10,8 @@
 // import Grid from './components/Grid.vue'
 // import Responsive from './components/Responsive.vue'
 // import ColorPallete from './components/ColorPallete.vue'
-import Fonts from './components/Fonts.vue'
+// import Fonts from './components/Fonts.vue'
+import Prose from './components/Prose.vue'
 </script>
 <template>
   <div class="m-10">
@@ -34,6 +35,7 @@ import Fonts from './components/Fonts.vue'
     <!-- <Grid /> -->
     <!-- <Responsive /> -->
     <!-- <ColorPallete /> -->
-    <Fonts />
+    <!-- <Fonts /> -->
+    <Prose />
   </div>
 </template>

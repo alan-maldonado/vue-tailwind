@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import colors from "tailwindcss/colors";
+import typographyPlugin from "@tailwindcss/typography";
 
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
@@ -80,7 +81,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [typographyPlugin],
   important: true,
   // darkMode: "class"
 };
