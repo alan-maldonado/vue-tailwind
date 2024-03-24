@@ -7,22 +7,24 @@ defineProps<{
 }>();
 </script>
 <template>
-  <div>
+  <div
+    class="flex flex-col justify-between rounded-lg border dark:bg-gray-800 p-4 text-center"
+  >
     <div>
-      <h3>{{ name }}</h3>
-      <p>
+      <h3 class="mb-4 text-xl font-bold">{{ name }}</h3>
+      <p class="mb-4 text-gray-500">
         {{ description }}
       </p>
-      <div>
-        <span>${{ price }}</span>
-        <span>/month</span>
+      <div class="flex items-center justify-center">
+        <span class="mr-2 inline-block text-4xl font-bold">${{ price }}</span>
+        <span class="text-gray-500">/month</span>
       </div>
       <!-- List -->
-      <ul role="list">
-        <li v-for="feature in features" :key="feature">
+      <ul role="list" class="mt-3 text-left">
+        <li v-for="feature in features" :key="feature" class="mb-4 flex">
           <!-- Icon -->
           <svg
-            class="w-5 h-5"
+            class="mr-2 h-5 w-5 text-green-500"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -37,6 +39,6 @@ defineProps<{
         </li>
       </ul>
     </div>
-    <a href="#">Get started</a>
+    <a class="block rounded bg-blue-600 px-4 py-2 text-white" href="#">Get started</a>
   </div>
 </template>

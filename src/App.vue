@@ -15,7 +15,7 @@
 import PricingCard from "./components/PricingCard.vue";
 </script>
 <template>
-  <div class="m-10">
+  <div class="grid gap-6 p-4 md:grid-cols-2 lg:grid-cols-3 max-w-6xl m-auto">
     <!-- <TheMainNav />
     <form action="">
       <label> </label>
