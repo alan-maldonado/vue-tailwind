@@ -13,7 +13,8 @@
 // import Fonts from './components/Fonts.vue'
 // import Prose from './components/Prose.vue'
 // import PricingCard from "./components/PricingCard.vue";
-import NavBar from './components/NavBar.vue';
+// import NavBar from './components/NavBar.vue';
+import CartCheckout from './components/CartCheckout.vue';
 </script>
 <template>
   <!-- <div class="m-auto grid max-w-6xl gap-6 p-4 md:grid-cols-2 lg:grid-cols-3"> -->
@@ -80,5 +81,16 @@ import NavBar from './components/NavBar.vue';
       ></PricingCard>
     </div> -->
   <!-- </div> -->
-  <NavBar />
+  <!-- <NavBar /> -->
+  <div class="max-w-4xl m-auto my-10">
+    <CartCheckout />
+  </div>
 </template>
+
+<style>
+html,
+body,
+#app {
+  background: #d9d9d9 !important;
+}
+</style>
